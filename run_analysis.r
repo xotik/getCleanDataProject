@@ -44,7 +44,7 @@ activityList <- read.table(file= paste(path,"activity_labels.txt", sep="/"), hea
 # Match activity id with description
 data$Activity <- activityList$V2[match(data$Activity, activityList$V1)]
 
-## Generating the tidy dataset: group by Subject and Activity, outputting the average of Mean and Std
+## Generating the tidy dataset: group by Subject and Activity, outputing the average of Mean and Std
 # Using package data.table
 library(data.table)
 dataDT <- data.table(data)
