@@ -1,13 +1,3 @@
-# 1. Concatenate columns from subject_test, y_test, X_Test files into a single data set
-# 2. Extract required columns (mean and std cols) from Data Set # 1 and Label column name correctly
-# 3. Used "Merge" function to merge Data Set from #2 with Activity Data Frame on basis of ActivityID column
-# 4. Concatenate columns from subject_train, y_train, X_Train files into a single data set
-# 5. Extract required columns (mean and std cols) from Data Set # 4 and Label column name correctly
-# 6. Used "Merge" function to merge Data Set from #5 with Activity Data Frame on basis of ActivityID column
-# 7. Combine the two data sets (from #3 and #6) into one
-# 8. Perform the summarization on data set from #7
-
-
 ## Test Data
 # Set path to files
 maindir <- getwd()
